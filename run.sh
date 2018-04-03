@@ -53,7 +53,7 @@ clear
 echo " Installing "
 sleep 1
 apt update && apt upgrade -y
-apt-get install git
+apt-get install git -y
 git clone https://github.com/verluchie/allinwan
 fi
 
