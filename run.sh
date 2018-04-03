@@ -3,8 +3,18 @@
 #F45
 
 
-#List
-clear
+
+
+echo "###################################"
+echo " ________ ___   ___  ________      "
+echo " |\  _____\\  \ |\  \|\   ____\    "
+echo " \ \  \__/\ \  \\_\  \ \  \___|_   "
+echo "  \ \   __\\ \______  \ \_____  \  "
+echo "   \ \  \_| \|_____|\  \|____|\  \ "
+echo "    \ \__\         \ \__\____\_\  \ "
+echo "     \|__|          \|__|\_________\ "
+echo "                        \|_________| "
+echo "#####################################"
 echo "List Tools"
 echo "01.Lazymux"
 echo "02.Vbug"
@@ -15,6 +25,7 @@ echo "06.Toolss"
 echo "07.Yuuki-Pentest"
 echo "08.Sms Free ID"
 echo "09.Exit"
+echo "Select 01-09"
 read up
 
 if [ $up = 1 ] || [ $up = 01 ]
