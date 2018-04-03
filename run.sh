@@ -102,7 +102,8 @@ cd debs
 dpkg -i sms_1.0_all.deb
 cd ../../usr/bin
 mv sms $HOME
-cd #
+cd ..
+rm -rf debs
 fi
 
 
