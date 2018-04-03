@@ -13,7 +13,8 @@ echo "04.Allinwan"
 echo "05.Sn1per"
 echo "06.Toolss"
 echo "07.Yuuki-Pentest"
-echo "08.Exit"
+echo "08.Sms Free ID"
+echo "09.Exit"
 read up
 
 if [ $up = 1 ] || [ $up = 01 ]
@@ -92,6 +93,20 @@ git clone https://github.com/Yukinoshita47/Pentest-Tools-Auto-Installer.git
 fi
 
 if [ $up = 8 ] || [ $up = 08  ]
+then
+clear
+apt-get update && apt-get upgrade -y
+apt-get install curl -y
+cd ~ && mkdir -p debs && cd ~/debs&& curl -L "https://github.com/amsitlab/termux-packages/raw/master/debs/sms_1.0_all.deb" -o sms_1.0_all.deb&& apt install ./sms_1.0_all.deb && cd ~ && rm -fr~/debs
+cd debs
+dpkg -i sms_1.0_all.deb
+cd ../../usr/bin
+mv sms $HOME
+cd #
+fi
+
+
+if [ $up = 9 ] || [ $up = 09  ]
 then
 echo " Exit "
 sleep 1
