@@ -61,6 +61,7 @@ git clone https://github.com/verluchie/allinwan
 fi
 
 if [ $up = 5 ] || [ $up = 05 ]
+then
 clear 
 echo" Installing "
 sleep 1
@@ -70,6 +71,7 @@ git clone https://github.com/1N3/Sn1per
 fi
 
 if [ $up = 6 ] || [ $up = 06  ]
+then
 clear
 echo " Installing "
 sleep 1
@@ -80,11 +82,12 @@ git clone https://github.com/AnonHackerr/toolss
 fi
 
 if [ $up = 7 ] || [ $up = 07  ]
+then
 clear
 echo " Installing "
 sleep 1
 apt update && apt upgrade -y
-apt-get install git
+apt-get install git -y
 git clone https://github.com/Yukinoshita47/Pentest-Tools-Auto-Installer.git
 fi
 
