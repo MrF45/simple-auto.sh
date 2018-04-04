@@ -24,8 +24,9 @@ echo "05.Sn1per"
 echo "06.Toolss"
 echo "07.Yuuki-Pentest"
 echo "08.Sms Free ID"
-echo "09.Exit"
-echo "Select 01-09"
+echo "09.Tool-X"
+echo "10.Exit"
+echo "Select 01-10"
 read up
 
 if [ $up = 1 ] || [ $up = 01 ]
@@ -106,6 +107,7 @@ fi
 if [ $up = 8 ] || [ $up = 08  ]
 then
 clear
+echo " Installing "
 apt-get update && apt-get upgrade -y
 apt-get install curl -y
 cd ~ && mkdir -p debs && cd ~/debs&& curl -L "https://github.com/amsitlab/termux-packages/raw/master/debs/sms_1.0_all.deb" -o sms_1.0_all.deb&& apt install ./sms_1.0_all.deb && cd ~ && rm -fr~/debs
@@ -117,8 +119,18 @@ cd ..
 rm -rf debs
 fi
 
+if [ $up = 9 ] || [ $up= 09  ]
+then
+clear
+echo " Installing "
+apt update && apt upgrade -y
+apt-get install git -y
+git clone https://github.com/Rajkumrdusad/Tool-X.git
+fi
 
-if [ $up = 9 ] || [ $up = 09  ]
+
+
+if [ $up = 10 ] || [ $up = 10  ]
 then
 echo " Exit "
 sleep 1
@@ -128,7 +140,7 @@ echo " 2 "
 sleep 1
 echo " 1 "
 sleep 1
-echo " Exit "
+echo " Pake sendiri ya ... jangan dishare gan "
 sleep 1
 exit
 fi
