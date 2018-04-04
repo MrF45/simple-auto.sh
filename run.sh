@@ -126,8 +126,12 @@ echo " Installing "
 apt update && apt upgrade -y
 apt-get install git -y
 git clone https://github.com/Rajkumrdusad/Tool-X.git
-fi
-
+echo "Tool Help :"
+echo "Type 0 : To install all tools."
+echo "Type 1 : to sow all available tools and type the number of a tool which you want to install."
+echo "Type 2 : if you want to update Tool-X."
+echo "Type 3 : if you know About us."
+echo "Type x : for exit."
 
 
 if [ $up = 10 ] || [ $up = 10  ]
