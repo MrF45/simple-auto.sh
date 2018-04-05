@@ -32,6 +32,9 @@ fi
 if [ $up = 2 ] || [ $up= 02 ]
 then
 clear
+echo "cp : copy file"
+echo "cd : change dir"
+echo "mv : move file"
 echo "lynx/w3m : browser"
 echo "nano/vim : text editor"
 echo "git : clone or other in github"
