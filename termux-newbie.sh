@@ -21,7 +21,7 @@ clear
 echo " Installing.. "
 sleep 1
 apt update && apt upgrade -y
-apt install python
+apt install python -y
 pip install mps_youtube
 pip install youtube_dl
 apt install mpv -y
@@ -30,6 +30,8 @@ fi
 
 
 if [ $up = 2 ] || [ $up= 02  ]
+then
+clear
 echo "lynx/w3m : browser"
 echo "nano/vim : text editor"
 echo "git : clone or other in github"
