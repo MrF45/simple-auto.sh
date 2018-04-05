@@ -35,5 +35,6 @@ echo "nano/vim : text editor"
 echo "git : clone or other in github"
 echo "wget : clone web to HTML"
 echo "busybox : all your tools command terminal"
-echo "other packages you can see in google"
-fi
+echo "cat : read script"
+echo"other packages you can see in google"
+
