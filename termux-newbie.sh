@@ -41,5 +41,5 @@ echo "git : clone or other in github"
 echo "wget : clone web to HTML"
 echo "busybox : all your tools command terminal"
 echo "cat : read script"
-echo"other packages you can see in google"
+echo "other packages you can see in google"
 fi
