@@ -132,7 +132,7 @@ echo "Type 1 : to sow all available tools and type the number of a tool which yo
 echo "Type 2 : if you want to update Tool-X."
 echo "Type 3 : if you know About us."
 echo "Type x : for exit."
-
+fi
 
 if [ $up = 10 ] || [ $up = 10  ]
 then
