@@ -29,7 +29,7 @@ echo "Run : mpsyt /artist-music and select number"
 fi
 
 
-if [ $up = 2 ] || [ $up= 02 ]
+if [ $up = 2 ] || [ $up = 02 ]
 then
 clear
 echo "cp : copy file"
