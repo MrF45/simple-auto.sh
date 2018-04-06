@@ -144,7 +144,7 @@ echo " 2 "
 sleep 1
 echo " 1 "
 sleep 1
-echo " Pake sendiri ya ... jangan dishare gan "
+echo " ^.^ "
 sleep 1
 exit
 fi
